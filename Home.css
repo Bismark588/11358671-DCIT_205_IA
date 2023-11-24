@@ -1,92 +1,85 @@
-/* Reset some default styles */
-body, h1, h2, h3, p, ul {
+/* General Styles */
+body {
     margin: 0;
-    padding: 0;
-  }
-  
-  /* Basic styling for the body and links */
-  body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
   }
   
-  a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  a:hover {
-    color: #555;
-  }
-  
-  /* Header styles */
+  /* Header Styles */
   header {
     background-color: #f8f8f8;
     padding: 20px 0;
+    position: relative;
+    z-index: 1;
   }
   
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
   }
   
   .container {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 10px;
   }
   
   nav ul {
     list-style: none;
     display: flex;
+    margin-top: 0;
   }
   
   nav ul li {
     margin-right: 20px;
   }
   
-  /* Hero section styles */
-  #hero {
-    background-image: url('path/to/your-background-image.jpg');
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+  /* Video Section Styles */
+  .video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 20px;
   }
   
-  #hero h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  #hero p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  .logo {
-    max-width: 150px; /* Adjust the size as needed */
+  .video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
     height: auto;
+    z-index: -1;
   }
   
+  /* Overlay on Video */
+  .video-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    border-radius: 20px;
+  }
   
-  
+  /* Footer Styles */
   footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
   }
+  
