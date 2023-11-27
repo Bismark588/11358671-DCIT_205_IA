@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Computer Science Department</title>
   <link rel="stylesheet" href="Home.css">
+  <style>
+    /* Add CSS for the text overlay */
+    .video-section {
+      position: relative;
+    }
+
+    .video-section .video-bg {
+      width: 100%;
+    }
+
+    .video-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-size: 36px; /* Increased font size */
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow for better visibility */
+    }
+  </style>
 </head>
+
 <body>
   <header>
     <nav>
@@ -24,29 +48,33 @@
 
   <section class="video-section">
     <video src="https://dcs.ug.edu.gh/video-bg.mp4" autoplay muted loop class="video-bg"></video>
+    <div class="video-text">
+    <marquee><p style="color:mediumseagreen;">YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</p></marquee>
+    </div>
     <div class="content-boxes">
-        <div class="content-box">
-          <h3>Short Courses</h3>
-          <p>
-            Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.
-            Read More</p>
-        </div>
-        <div class="content-box">
-          <h3>Undergraduate Programmes</h3>
-          <p>Open the door to sought-after technology careers with a world-class Bachalor of Science in Computer Science Degree</p>
-        </div>
-        <div class="content-box">
-          <h3>Mpil and MSc Programmes</h3>
-          <p>Embrace World Class graduate education  with unique blend of cutting edge research industry experiance</p>
-        </div>
-        <div class="content-box">
-          <h3>PhD Programmes</h3>
-          <p>
-            Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p>
-        </div>
+      <div class="content-box">
+        <h3>Short Courses</h3>
+        <p>
+          Our eight-week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers, and the general public.
+          Read More</p>
       </div>
-</section>  
-<section id="hero">
+      <div class="content-box">
+        <h3>Undergraduate Programmes</h3>
+        <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science Degree</p>
+      </div>
+      <div class="content-box">
+        <h3>Mpil and MSc Programmes</h3>
+        <p>Embrace World Class graduate education with a unique blend of cutting-edge research industry experience</p>
+      </div>
+      <div class="content-box">
+        <h3>PhD Programmes</h3>
+        <p>
+          Our PhDs lead the effort to extend the boundaries of knowledge through quality and industry-relevant research.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hero">
     <div class="container">
       <h2>Welcome to our Computer Science Department</h2>
       <p>Explore the world of technology with our innovative programs and expert faculty.</p>
@@ -86,11 +114,11 @@
     </div>
   </section>
 
-
   <footer>
     <div class="container">
       <p>&copy; 2023 Computer Science Department</p>
     </div>
   </footer>
 </body>
+
 </html>
