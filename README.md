@@ -11,7 +11,7 @@
 
     <section>
         <h2>Introduction</h2>
-        <p>Welcome to Computer Science Department! This project serves a website design by a beginner developer to suite the University of Ghana Computer Science Department in aim of improving developing skills and having the passing of becoming future world class website developer ].</p>
+        <p>Welcome to Computer Science Department! This project serves a website design by a beginner developer to suite the University of Ghana Computer Science Department in aim of improving developing skills and having the passing of becoming future world class website developer .</p>
     </section>
 
     <section>
