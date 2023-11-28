@@ -19,8 +19,10 @@ git clone https://github.com/your-username/your-repository.git
 - **Name:** Shie Kwasi Bismark
 - **Student ID:** 11358671
 
-## Screenshots
-- C:\Users\logic\OneDrive\Pictures\Saved Pictures\Screenshots\Screenshot (55).png
+### Screenshots
+Here are screenshots from the project:
+- ![Screenshot 1](https://raw.githubusercontent.com/your-username/your-repository/main/Screenshot%20(55).png)
+- ![Screenshot 2](https://raw.githubusercontent.com/your-username/your-repository/main/Screenshot%20(56).png)
 
 ## Lessons Learned
 - Indeed, I have learned many lessons. At first, I knew nothing about website development, but now I have learned a lot: from "marquee" text to inserting videos on the website. Initially, I was puzzled about these features, but through research and practice, I gained a lot of experience in them.
