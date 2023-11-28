@@ -22,7 +22,7 @@ git clone https://github.com/your-username/your-repository.git
 ### Screenshots
 Here are screenshots from the project:
 - ![Screenshot 1](C:\Users\logic\OneDrive\Pictures\Saved Pictures\Screenshots\Screenshot (55).png)
-- ![Screenshot 2](https://raw.githubusercontent.com/your-username/your-repository/main/Screenshot%20(56).png)
+- ![Screenshot 2](https://raw.githubusercontent.com/Bismark588/origin/main/C:\Users\logic\OneDrive\Pictures\Saved Pictures\Screenshots\Screenshot (55).png)
 
 ## Lessons Learned
 - Indeed, I have learned many lessons. At first, I knew nothing about website development, but now I have learned a lot: from "marquee" text to inserting videos on the website. Initially, I was puzzled about these features, but through research and practice, I gained a lot of experience in them.
