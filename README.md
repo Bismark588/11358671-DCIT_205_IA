@@ -23,6 +23,7 @@ git clone https://github.com/your-username/your-repository.git
 Here are screenshots from the project:
 ![Homepage](https://github.com/Bismark588/11358671-DCIT_205_IA/blob/main/Screenshot%20(55).png?raw=true)
 ![Homepage](https://github.com/Bismark588/11358671-DCIT_205_IA/blob/main/Screenshot%20(56).png?raw=true)
+![Eventpage](https://github.com/Bismark588/11358671-DCIT_205_IA/blob/main/Screenshot%20(60).png?raw=true)
 
 ## Lessons Learned
 - Indeed, I have learned many lessons. At first, I knew nothing about website development, but now I have learned a lot: from "marquee" text to inserting videos on the website. Initially, I was puzzled about these features, but through research and practice, I gained a lot of experience in them.
