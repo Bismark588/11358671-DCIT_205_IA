@@ -14,14 +14,13 @@ git clone https://github.com/your-username/your-repository.git
 3. Navigate to the project directory.
 4. Install dependencies using the appropriate package manager:
 - `npm install` (if using npm) or `yarn install` (if using Yarn)
-5. [Add any specific setup or configuration instructions here, such as environment variables, database setups, etc.]
 
 ## Author Information
 - **Name:** Shie Kwasi Bismark
 - **Student ID:** 11358671
 
 ## Screenshots
-- Insert your screenshot descriptions or links here
+- C:\Users\logic\OneDrive\Pictures\Saved Pictures\Screenshots\Screenshot (55).png
 
 ## Lessons Learned
 - Indeed, I have learned many lessons. At first, I knew nothing about website development, but now I have learned a lot: from "marquee" text to inserting videos on the website. Initially, I was puzzled about these features, but through research and practice, I gained a lot of experience in them.
