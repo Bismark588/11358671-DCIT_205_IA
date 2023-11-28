@@ -21,7 +21,7 @@ git clone https://github.com/your-username/your-repository.git
 
 ### Screenshots
 Here are screenshots from the project:
-- ![Screenshot 1](https://raw.githubusercontent.com/your-username/your-repository/main/Screenshot%20(55).png)
+- ![Screenshot 1](C:\Users\logic\OneDrive\Pictures\Saved Pictures\Screenshots\Screenshot (55).png)
 - ![Screenshot 2](https://raw.githubusercontent.com/your-username/your-repository/main/Screenshot%20(56).png)
 
 ## Lessons Learned
